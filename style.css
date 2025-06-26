@@ -1,0 +1,389 @@
+
+/*Currulum*/
+.cv {
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  border: 0px;
+  color: rgb(63, 63, 63);
+}
+
+.cv h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  letter-spacing: 20px;
+}
+
+.titulo h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  letter-spacing: 20px;
+}
+
+.nombre h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  letter-spacing: 15px;
+}
+.descripcion h1{ 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  letter-spacing: 8px;
+}
+.grados h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.info_personal p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+/*encabezado*/
+.head {
+    background-color: rgb(166, 166, 166);
+    padding: 0px 0px 20px 0px;   
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imagen { 
+    height: 200px;
+    width: 200px;
+    margin: 0px 0px 20px 30px;
+}
+
+/*encabezado presentación*/
+.present {
+  border-right: 1px dotted rgb(160, 160, 160);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.present h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.present h5{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+.present p{
+  font-size: 19px;
+}
+
+.present hr{
+  height: 0px;
+  width: 0px;
+}
+/*encabezado datos personales*/
+.personales {
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  padding-top: 60px;
+}
+
+
+/*cuerpo*/
+/*titulos*/
+.titulos{
+  text-align: center;
+  color: rgb(51, 51, 51);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  padding: 20px 0px 10px 0px;
+}
+/*Conocimientos técnicos */
+
+.division{
+    height:1px;
+    color:rgb(49, 49, 49);
+    background-color:rgb(255, 255, 255)
+
+}
+
+.contec {
+    background-color: rgb(166, 166, 166);
+    
+    text-align: center;
+    display: block;
+}
+
+.contec h1{
+  margin-top: 20px;
+}
+.bot-tec{
+  text-align: center;
+}
+
+.bot-tec button:hover{
+  color:rgb(90, 150, 50);
+}
+/* Experiencia */
+
+.experiencia {
+    padding: 20px;
+    border-bottom: 1px solid rgb(50, 90, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.3s ease-in;
+}
+
+.experiencia h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.experiencia p{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+
+}
+.experiencia:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.experiencia i{
+  font-size: 25px;
+  color: rgb(50, 90, 35);
+}
+
+.experiencia hr{
+  width: 250px;
+  color: rgb(94, 137, 68);
+}
+
+.experiencia button{
+  color:rgb(50, 90, 35);
+}
+
+.experiencia ul{
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.badges-contenedor {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;    
+}
+
+.btn{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+.desexp p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+/*idioma*/
+
+.grafiquin{ 
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grafiquin h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+canvas{
+  max-width: 100%;
+}
+
+/*Experiencia Laboral*/
+.explab {
+    background-color: rgb(245, 245, 245);
+    
+}
+
+.explab h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color:rgb(63,63,63);
+}
+.titulo{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  display: block;
+}
+
+/*escolar*/
+.escuela-ul {
+  border-left: 5px solid rgb(210, 210, 210);
+  background-color: rgb(240, 240, 240);
+  list-style-type: none;
+  padding: 10px 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(63,63,63);
+}
+.escuela-ul:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+
+
+/*trabajos*/
+.trabajos{
+  background-color: rgb(240, 240, 240);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.trabajos:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+.bot-trab{
+  text-align: center;
+}
+
+.bot-trab i{
+  font-size: 10px;
+}
+
+.trabajos td{
+  font-size: 15px;
+}
+/*formacion academica*/
+.h1-academ{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+/*cards*/
+
+.docencia p{
+  font-size: 15px;
+}
+
+.docencia h5{
+  font-size: 15px;
+}
+
+.cardacadem{
+  background-color: rgb(240, 240, 240);
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 0%;
+  border:0;
+  text-align: justify;
+}
+
+.cardacadem:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+.detacadem{
+  padding: 10px;
+  text-align: justify;
+
+}
+/*Responsivo*/
+
+@media screen and (max-width: 400px){
+
+    .imagen {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 980px){
+
+  .imagen {
+      text-align: center;
+      margin: 0px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+
+  .imagen {
+      text-align: center;
+      padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1400px){
+
+  .imagen {
+      text-align: center;
+      margin: 40px 0px 0px 0px;
+  }
+}
+
+/*letras CV*/
+@media screen and (max-width: 1200px){
+
+  .cv{
+      padding: 20px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 1000px){
+
+  .cv h1 {
+      letter-spacing: 10px;
+  }
+}
+
+@media screen and (max-width: 778px){
+
+  .cv h1 {
+      letter-spacing: normal;
+  }
+}
+
+/*media present*/
+
+@media screen and (max-width: 1197px){
+
+  .present {
+    border-right:none;
+    border-bottom: 1px dotted rgb(115, 116, 115);
+  }
+}
+
+/*media personales*/
+
+@media screen and (max-width: 1200px){
+
+  .personales {
+   text-align: center;
+   padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+
+  canvas {
+   max-width:300px;
+   max-height: 300px;
+   margin: auto;
+  }
+}
+
+
+
+
+
+

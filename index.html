@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="José Pedro Gómez Rodríguez">
+    <meta name="description" content="CV de Pedro Gómez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Python, Bootstrap, Geografo, SIG">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>CV Pedro Gómez</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  
+  </head>
+  <body>
+
+    <div class="container">
+    
+        <!--Encabezado-->
+        <div class="row">
+          <div class="cv titulo col-12">
+            <h1>Curriculum Vitae</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="cv nombre col-12">
+            <h1>José Pedro Gómez Rodríguez</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="cv descripcion col-12">
+            <h1>Geógrafo / Analista Espacial / Desarrollador Jr. Python, Java</h1>
+          </div>
+        </div>
+
+         <div class="row">
+          <div class="cv grados col-12">
+            <h1>Lic. en Geografía por la Universidad Nacional Autónoma de México</h1>
+            <h1>Mtro. en Geomática por la Universidad Nacional Autónoma de México</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="cv info_personal col-12">
+            <p>
+                <b>Nacionalidad: </b>Mexicana,
+                <b>Edad: </b>36 años,
+                <b>Estado Civil: </b>Soltero,
+                <b>Domicilio: </b>Tlalpan, CDMX,
+                <b>Teléfono: </b>55 27 05 11 40,
+                <b>e-mail: </b>pedrogomez.geo@gmail.com
+              </p>
+          </div>
+        </div>
+    
+        <!--Cuerpo-->
+        <section class="container-fuid">
+          <div class="row row-eq-height">
+            <div class="contec col-xl-3 col-lg-12 d-block">
+              <!--inicia lado izquiero de conocimientos técnicos-->
+              <div class="titulos">
+                <h3 style="color:rgb(0, 0, 0)"><b>Conocimientos Técnicos</b></h3>
+              </div>
+            
+              <!--Análisis Espacial-->
+              <div class="experiencia">
+                <i class="bi bi-pin-map-fill"></i>
+                <h1>Análisis Espacial y Estadístico</h1>
+                <p>Vectorial:</p>
+                <div>
+                  <ul>
+                    <li>Análisis Multivariantes</li>
+                    <li>Análisis de Componentes Principales</li>
+                    <li>Muestreos Estadísticos</li>
+                    <li>Levantamientos GPS</li>
+                    <li>Análisis de Redes</li>
+                    <li>Machine Learning</li>
+                    <li>Análisis de Clustering</li>
+                  </ul>
+                </div>
+                <div class="bot-tec">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#vectorial">info
+                  <i class="bi bi-info-circle" style="font-size: 10px;"></i></button>
+                  <div id="vectorial" class="collapse">
+                    <div class="desexp">
+                      <p>Uso de metodologías de análisis espacial como:</p>
+                        <ul style="list-style-type: none;">
+                          <li>Análisis de proximidad</li>
+                          <li>Análisis de superposición</li>
+                          <li>Análisis de Redes de Transporte (Áreas de Influencia, Ruta Óptima, etc.)</li>
+                          <li>Análisis de superposición</li>
+                          <li>Análisis de Visibilidad</li>
+                          <li>Análisis de Acumulación</li>
+                        </ul>
+                      <p>así como herramientas de procesamiento geográfico aplicando metodos estadísticos como:</p>
+                      <ul style="list-style-type: none;">
+                        <li>Estadística Descriptiva</li>
+                        <li>Estadística Inferencial</li>
+                        <li>Estadística Predictiva (Machine Learning)</li>
+                        <li>Muestreo Aleatorio Simple</li>
+                        <li>Muestreo Aleatorio por Conglomerado</li>
+                        <li>Análisis de Componentes Principales (PCA)</li>
+                      </ul> 
+                    </div>
+                  </div>
+                </div> 
+                <hr>
+                <p>Raster:</p>
+                <div>
+                  <ul>
+                    <li>Análisis con Modelos Digitales de Elevación</li>
+                    <li>Análisis con Imagenes Multiespectrales e Hiperespectrales</li>
+                    <li>Clasificación Supervisada y No Supervisada </li>
+                    <li>Índices de Vegetación</li>
+                    <li>Georreferenciación y Ortorectificación</li>
+                  </ul>
+                </div>
+                <div class="bot-tec">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#raster">info
+                  <i class="bi bi-info-circle" style="font-size: 10px;"></i>
+                  </button>
+                  <div id="raster" class="collapse">
+                    <div class="desexp">
+                      <p>Procesamiento de Imágenes Satelitales y Aéreas</p>
+                        <ul style="list-style-type: none;">
+                          <li>Multiespectrales</li>
+                          <li>Índices de Vegetación (NDVI)</li>
+                          <li>Clasificación Supervisada</li>
+                          <li>Clasificación no Supervisada</li>
+                          <li>Georreferenciación</li>
+                        </ul>
+                        <p>así como:</p>
+                        <ul style="list-style-type: none;">
+                          <li>Análisis de información con Modelos Digitales de Elevación con productos Lidar y TIN</li>
+                          <li>Modelado 3D</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+
+              <!--Lenguajes de Programación-->
+              <div class="experiencia">
+                <i class="bi bi-laptop"></i>
+                <h1>Lenguajes de Programación</h1>
+                <p>Front-End</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-secondary">CSS</span>
+                  <span class="badge text-bg-secondary">HTML</span>
+                  <span class="badge text-bg-secondary">JavaScript</span>
+                </div>
+                <div class="bot-tec">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#lenguajesfrontend">info
+                    <i class="bi bi-info-circle" style="font-size: 10px;"></i>
+                  </button>
+                  <div id="lenguajesfrontend" class="collapse">
+                    <div class="desexp">
+                      <p>Lenguajes frontend</p>
+                        <ul style="list-style-type: none;">
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JavaScript</li>
+                        </ul>
+                        <p>y uso de frameworks y bibliotecas como:</p>
+                        <ul style="list-style-type: none;">
+                          <li>Bootstrap</li>
+                          <li>React</li>
+                          <li>Angular</li>
+                          <li>Leaflet (para portales geográficos)</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div> 
+                <hr>
+                <p>Back-End</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-secondary">Python</span>
+                  <span class="badge text-bg-secondary">Java</span>
+                </div>
+                <div class="bot-tec">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#lenguajesbackend">info
+                    <i class="bi bi-info-circle" style="font-size: 10px;"></i>
+                  </button>
+                  <div id="lenguajesbackend" class="collapse">
+                    <div class="desexp">
+                      <p>Uso de Lenguajes de Programación como:</p>
+                        <ul style="list-style-type: none;">
+                          <li>Python</li>
+                          <li>Java</li>
+                        </ul>
+                        <p>Y uso de librerias estadistcias y geograficas como:</p>
+                        <ul style="list-style-type: none;">
+                          <li>ArcPy</li>
+                          <li>PyQGIS</li>
+                          <li>Pandas</li>
+                          <li>Numpy</li>
+                          <li>Seaborn</li>
+                          <li>Matplotlib</li>
+                          <li>sklearn</li>
+                          <li>chartjs</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+
+            <!--Servidores y Bases de datos-->
+              <div class="experiencia">
+                <i class="bi bi-cloud-arrow-up"></i>
+                <h1> Servidores y Bases de Datos</h1>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-secondary">GeoServer</span> 
+                  <span class="badge text-bg-secondary">Geodatabase</span> 
+                  <span class="badge text-bg-secondary">MongoDB</span> 
+                  <span class="badge text-bg-secondary">MySQL Server</span> 
+                  <span class="badge text-bg-secondary">PostgeSQL</span> 
+                </div>
+                <div class="bot-tec">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#bd">info
+                    <i class="bi bi-info-circle" style="font-size: 10px;"></i>
+                  </button>
+                  <div id="bd" class="collapse">
+                    <div class="desexp">
+                      <p>Uso de Servidores y Bases de Datos de Información Geográfica como:</p>
+                        <ul style="list-style-type: none;">
+                          <li>Geoserver</li>
+                          <li>MongoDB</li>
+                          <li>MySQL</li>
+                          <li>PostgreSQL (PostGIS)</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+          
+              <!--Softwares-->
+              <div class="experiencia">
+                <i class="bi bi-images"></i>
+                <h1>Softwares</h1>
+                <p>SIG y CAD</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-secondary">QGIS</span>
+                  <span class="badge text-bg-secondary">ArcGIS</span>
+                  <span class="badge text-bg-secondary">Mapinfo</span>
+                  <span class="badge text-bg-secondary">AutoCAD</span>
+                  <span class="badge text-bg-secondary">Territory Planner</span>
+                  <span class="badge text-bg-secondary">R Studio</span>
+                  <span class="badge text-bg-secondary">SPSS</span>
+                </div>
+                <div class="bot-tec">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#SIG">info
+                    <i class="bi bi-info-circle" style="font-size: 10px;"></i>
+                  </button>
+                  <div id="SIG" class="collapse">
+                    <div class="desexp">
+                      <p>Uso especializado de Sistemas de Información Geografica como:</p>
+                        <ul style="list-style-type: none;">
+                          <li>QGIS</li>
+                          <li>ArcGIS</li>
+                          <li>Mapinfo</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div> 
+                <hr>
+                <p>Análisis Raster</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-secondary">ERDAS</span>
+                  <span class="badge text-bg-secondary">GRASS</span>
+                  <span class="badge text-bg-secondary">ENVI</span>
+                </div>
+                <div class="bot-tec">
+                  <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#geosoft">info
+                    <i class="bi bi-info-circle" style="font-size: 10px;"></i>
+                  </button>
+                  <div id="geosoft" class="collapse">
+                    <div class="desexp">
+                      <p>Uso de softwares para procesamiento de imágenes satelitales (Multiespectrales, Hiperespectrales)
+                      </p>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+          
+              <!--grafica-->
+              <div>
+                <section class="grafiquin">
+                  <h1>Idioma Inglés</h1>
+                  <canvas id="polar" height="100" width="100"></canvas>
+                </section>
+              </div>
+            </div>
+
+              <!--sección clara de historial academico y profesional-->
+            <div class="explab col-xl-9 col-lg-12">
+              <div class="titulos">
+                <h3><b>Formación Académica</b></h3>
+              </div>
+             
+                <!--Licenciatura-->
+                <h4>Licenciatura</h4>
+                <ul class="escuela-ul">
+                  <li>Institución: <b>Universidad Nacional Autónoma de México</b></li>
+                  <li>Facultad: <b>Facultad de Filosofía y Letras</b></li>
+                  <li>Periodo de Estudios: <b>2009 - 2013</b></li>
+                  <li>Titulo Obtenido: <b>Licenciado en Geografía</b></li>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#lic">info
+                      <i class="bi bi-info-circle"></i>
+                    </button>
+                    <div id="lic" class="collapse">
+                      <div class="desexp">
+                        <p>Cursé la Licenciatura en Geografía en la Facultad de Filosofía y Letras de la UNAM,
+                         especializándome en Cartografía, Sistemas de Información Geográfica y Estadística, 
+                         obteniendo un promedio de 8.51 y elaborando una tesis de "Detección de la Dispersión Urbana por 
+                         medio de Clasificación de Imágenes"
+                        </p>
+                      </div>
+                    </div>
+                 </div> 
+                </ul>
+
+                <!--Maestria-->
+                <h4>Maestria</h4>
+                <ul class="escuela-ul">
+                  <li>Institución: <b>Universidad Nacional Autónoma de México</b></li>
+                  <li>Facultad: <b>Posgrado de Geografía</b></li>
+                  <li>Periodo de Estudios: <b>2016 - 2018</b></li>
+                  <li>Titulo Obtenido: <b>Maestro en Geomática (pasante)</b></li>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#mtro">info
+                      <i class="bi bi-info-circle"></i>
+                    </button>
+                    <div id="mtro" class="collapse">
+                      <div class="desexp">
+                        <p>Cursé la Maestría en Geomática en el Posgrado de Geografía de la UNAM, 
+                        especializándome en Sistemas de Información Geográfica, Segmentación Dinámica y 
+                        Análisis Espaciales con base en Tecnologías de la Información, obteniendo un promedio de 
+                        9.0 y elaborando una tesis de “Elaboración de un Sistema de Seguridad Vial para los Ángeles Verdes de la SECTUR” 
+                        </p>
+                      </div>
+                    </div>
+                  </div> 
+                </ul>
+
+                <!--Experiencia Laboral-->
+                <div class="titulos">
+                  <h3><b>Experiencia Laboral</b></h3>
+                </div>
+
+                <!--IMSS Bienestar-->
+                <div class="trabajos">
+                  <table style="width:100%">
+                    <tr>
+                      <th style="text-align: center; font-size:25px;"><i class="bi bi-arrow-bar-right"></i></th>
+                      <th style="width:90%">IMSS Bienestar (2024 - a la fecha)</th>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 17px;">(Analista Espacial y Estadístico, Desarrollador JR)</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 13px;">Funciones Realizadas:</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Realizar análisis de salud con métodos geográficos y estadísticos</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Tester de Software (pruebas unitarias)</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Analizar y procesar información geoespacial mediante el uso de SIG, Bases de Datos Geograficas</td>
+                    </tr>
+                  </table>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#infotec">info
+                      <i class="bi bi-info-circle"></i></button>
+                      <div id="infotec" class="collapse">
+                        <div class="desexp">
+                          <p style="padding: 20px;">Trabajo en IMSS Bienestar en la Coordinación de Educación e Investigación,
+                             de noviembre 2024 a la fecha, realizando labores de análisis estadísticos y geográficos a datos de salud, 
+                             así como apoyo al área de sistemas de la División de Investigación en Salud realizando pruebas unitarias y funcionales, 
+                             análisis de software y web scraping.
+                          </p>
+                        </div>
+                      </div>
+                  </div> 
+                </div>
+              
+                <!--Infotec-->
+                <div class="trabajos">
+                  <table style="width:100%">
+                    <tr>
+                      <th style="text-align: center; font-size:25px;"><i class="bi bi-arrow-bar-right"></i></th>
+                      <th style="width:90%">INFOTEC (2019-2024)</th>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 17px;">(Desarrollador JR, Analista Espacial, Analista de Software)</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 13px;">Funciones Realizadas:</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Desarrollar algoritmos utilizando métodos geográficos en el Back-End para el sistema SINA de CONAGUA</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Desarrollar código Front-End para modulos del sistema geografico del sistema SINA de CONAGUA</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Tester de Software</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Analizar y procesar información geoespacial mediante el uso de SIG, Bases de Datos Geograficas</td>
+                    </tr>
+                  </table>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#infotec">info
+                      <i class="bi bi-info-circle"></i></button>
+                      <div id="infotec" class="collapse">
+                        <div class="desexp">
+                          <p style="padding: 20px;">Trabajé en INFOTEC-Centro de Investigación e Innovación en TIC
+                             del año 2019 y 2024, comenzando mis labores como analista geográfico 
+                          procesando y subiendo información a GeoServer para el sistema SINA de la CONAGUA, continuando 
+                          mi formación como Tester haciendo pruebas funcionales y no funcionales, colaborando en la documentación 
+                          elaborando Casos de Uso atendiendo incidencias del usuario y continuando como Desarrollador Jr. Python 
+                          para codificar algoritmos que incluían métodos y herramientas de análisis geográfico así como Desarrollador 
+                          Front-End elaborando Módulos para el sistema SINA en su migración a plataformas open source 
+                          </p>
+                        </div>
+                      </div>
+                  </div> 
+                </div>
+
+                <!--Pagatodo-->
+                <div class="trabajos">
+                  <table style="width:100%">
+                    <tr>
+                      <th style="text-align: center; font-size:25px;"><i class="bi bi-arrow-bar-right"></i></th>
+                      <th style="width:90%">Banco PagaTodo (2018 - 2019)</th>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 17px;">(Coordinador de Logística y Gestión de Operaciones Red Física)</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 13px;">Funciones Realizadas:</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Coordinador de equipo de ventas en campo</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Análisis y segmentación de mercado</td>
+                    </tr>
+                  </table>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#pagatodo">info
+                      <i class="bi bi-info-circle"></i>
+                    </button>
+                    <div id="pagatodo" class="collapse">
+                      <div class="desexp">
+                        <p style="padding: 20px;">Trabajé en Banco PagaTodo-Desarrollo en Asesoría Transaccional 
+                          y Administrativa S.A. de C.V. realizando labores de mercado, implementando estrategias de 
+                          cobertura de ventas de terminales electrónicas en comercios de las principales ciudades de
+                           la República Mexicana coordinando las gerencias regionales, estableciendo metas y analizando los resultados 
+                        </p>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+
+                  <!--Vera & Asociados-->
+                <div class="trabajos">
+                  <table style="width:100%">
+                    <tr>
+                      <th style="text-align: center; font-size:25px;"><i class="bi bi-arrow-bar-right"></i></th>
+                      <th style="width:90%">Vera & Asociados Despacho Legal-Ambiental (2018 - 2019)</th>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 17px;">(Geógrafo)</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 13px;">Funciones Realizadas:</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Elaborar análisis y cartografía para atender temas legales</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Elaborar DTU y Manifiesto de Impacto Ambiental</td>
+                    </tr>
+                  </table>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#vera">info
+                      <i class="bi bi-info-circle"></i>
+                    </button>
+                    <div id="vera" class="collapse">
+                      <div class="desexp">
+                        <p style="padding: 20px;">
+                          Trabajé en Vera & Asociados despacho Legal-Ambiental realizando análisis geográfico 
+                          para temas legales, elaborando las secciones geográficas de los Documentos Técnico 
+                          Unificados y Manifiestos de Impacto Ambiental, manejando información cartográfica de 
+                          proyectos de ingeniería entre software CAD y SIG
+                        </p>
+                      </div>
+                   </div>
+                  </div> 
+                </div>
+
+                 <!--Geotech-->
+                <div class="trabajos">
+                  <table style="width:100%">
+                    <tr>
+                      <th style="text-align: center; font-size:25px;"><i class="bi bi-arrow-bar-right"></i></th>
+                      <th style="width:90%">Consultora Geotech (2016 - 2018)</th>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 17px;">(Geógrafo)</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 13px;">Funciones Realizadas:</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Análisis y Segmentación de Mercado</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Logística y elaboración de análisis de redes de transporte</td>
+                    </tr>
+                  </table>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#geotech">info
+                      <i class="bi bi-info-circle"></i>
+                    </button>
+                    <div id="geotech" class="collapse">
+                      <div class="desexp">
+                        <p style="padding: 20px;">Trabajé en Consultora Geotech elaborando análisis de mercado, 
+                          realizando segmentación de mercado y realizando análisis de redes de transporte para 
+                          la logística de productos 
+                        </p>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+
+                  <!--AV-->
+                <div class="trabajos">
+                  <table style="width:100%">
+                    <tr>
+                      <th style="text-align: center; font-size:25px;"><i class="bi bi-arrow-bar-right"></i></th>
+                      <th style="width:90%">Ángeles Verdes de la SECTUR (2014 - 2016)</th>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 17px;">(Coordinador de Profesionales Dictaminadores)</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 13px;">Funciones Realizadas:</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Coordinador de equipo geográfico</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Enlace institucional</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Logística y Gestión de rutas y sitios Ángeles Verdes en carreteras</td>
+                    </tr>
+                  </table>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#av">info
+                      <i class="bi bi-info-circle"></i>
+                    </button>
+                    <div id="av" class="collapse">
+                      <div class="desexp">
+                        <p style="padding: 20px;">Trabajé en Ángeles Verdes de la Secretaria de Turismo 
+                          coordinando el equipo geográfico siendo enlace institucional con dependencias 
+                          de gobierno en el área técnica, así como analista de servicios realizados en 
+                          carretera definiendo rutas y establecimiento de equipamiento en carreteras de 
+                          la corporación
+                        </p>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+
+                 <!--FAC Arqui-->
+                <div class="trabajos">
+                  <table style="width:100%">
+                    <tr>
+                      <th style="text-align: center; font-size:25px;"><i class="bi bi-arrow-bar-right"></i></th>
+                      <th style="width:90%">Facultad de Arquitectura-FA VIVIENDA UNAM (2014)</th>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 17px;">(Geógrafo)</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 13px;">Funciones Realizadas:</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Elaboración de Mapas</td>
+                    </tr>
+                  </table>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#arqui">info
+                      <i class="bi bi-info-circle"></i>
+                    </button>
+                    <div id="arqui" class="collapse">
+                      <div class="desexp">
+                        <p style="padding: 20px;">Trabajé en la Facultad de Arquitectura de la UNAM para 
+                          el área de FA VIVIENDA realizando mapas de los servicios próximos a las unidades 
+                          habitacionales INFONAVIT de la Ciudad de México 
+                        </p>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+
+                 <!--Argeomática-->
+                <div class="trabajos">
+                  <table style="width:100%">
+                    <tr>
+                      <th style="text-align: center; font-size:25px;"><i class="bi bi-arrow-bar-right"></i></th>
+                      <th style="width:90%">Argeomática (2013)</th>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 17px;">(Geógrafo)</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td style="font-size: 13px;">Funciones Realizadas:</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Elaborador de Planos</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>- Procesamiento de información geográfica</td>
+                    </tr>
+                  </table>
+                  <div class="bot-trab">
+                    <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#argeomatica">info
+                      <i class="bi bi-info-circle"></i>
+                    </button>
+                    <div id="argeomatica" class="collapse">
+                      <div class="desexp">
+                        <p style="padding: 20px;">Trabajé en Argeomática una empresa de ingeniería, elaborando 
+                          planos para un proyecto de PEMEX y realizando restitución fotogramétrica 
+                        </p>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+
+                  <!--Experiencia Académica-->
+                <div class="titulos">
+                  <h3><b>Experiencia Académica</b></h3>
+                </div>
+
+                 <!--las cards-->
+                <div class="docencia">
+                  <div class="card-group">
+                    <div class="card cardacadem">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>Docencia</b></h5>
+                        <p>Profesor de SIG nivel Básico en el Palacio de Mineria de la Facultad de Ingeniería de la UNAM</p>
+                      </div>
+                      <div class="bot-trab">
+                        <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#mineria">info
+                          <i class="bi bi-info-circle"></i>
+                        </button>
+                        <div id="mineria" class="collapse">
+                          <div class="desexp" style="padding: 20px;">
+                            <p style="margin-bottom: 0px;">Curso Impartido: <b>SIG Básico</b></p>
+                            <p style="margin-bottom: 0px;">Institución: <b>Palacio de Minería, Facultad de Ingeniería UNAM </b></p>
+                            <p style="margin-bottom: 0px;">Duración: <b>40 horas</b></p>
+                            <p style="margin-bottom: 0px;">Fecha: <b>junio 2014</b></p>
+                            <p style="margin-bottom: 0px;">Otras Actividades: <b>Asesorias</b></p>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="card cardacadem" style="border-left: 1px dotted rgb(204, 204, 204);">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(240,240,240)">-</h5>
+                        <p>Profesor de ArcMAP aplicado a la Biología en el Tecnológico de Estudios Superiores Huixquilucan</p>
+                      </div>
+                      <div class="bot-trab">
+                        <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#tesh">info
+                          <i class="bi bi-info-circle"></i>
+                        </button>
+                        <div id="tesh" class="collapse">
+                          <div class="desexp" style="padding: 20px;">
+                            <p style="margin-bottom: 0px;">Curso Impartido: <b>ArcMAP aplicado a la Biología</b></p>
+                            <p style="margin-bottom: 0px;">Institución: <b>Tecnológico de Estudios Superiores Huixquilucan</b></p>
+                            <p style="margin-bottom: 0px;">Duración: <b>40 horas</b></p>
+                            <p style="margin-bottom: 0px;">Fecha: <b>junio 2014</b></p>
+                            <p style="margin-bottom: 0px;">Otras Actividades: <b>Asesorias</b></p>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="card cardacadem" style="border-left: 1px dotted rgb(204, 204, 204);">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>Investigación</b></h5>
+                        <p>Becario de Investigación en el Instituto de Investigaciones Económicas de la UNAM</p>
+                      </div>
+                      <div class="bot-trab">
+                        <button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#iiec">info
+                          <i class="bi bi-info-circle"></i>
+                        </button>
+                        <div id="iiec" class="collapse">
+                          <div class="desexp">
+                            <p style="padding: 20px;">Colaboré en el proyecto "Georreferenciación de Actividades
+                              Económicas del Sector Electrónico, Informático y Telecomunicación" y el "Atlas de la 
+                              Industria Electrónica y Telecomunicaciones en México" en el IIEc de la UNAM a cargo
+                              del Dr. Sergio Ordoñez y del Mtro. en C. Rafael Bouchain
+                            </p>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        
+    </div>
+
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
